@@ -1,13 +1,85 @@
+img.bg{
+
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+
 .myCard{
     position: center;
     float: left;
     padding:10px;
-    margin: 80px;
+    margin: 40px;
+    color: rgb(105, 32, 32);
+    font-style:bold;
+    font-size: 24px;
+    background-color: rgb(105, 32, 32, 0.3);
 }
 .myNavbar{
     background-color: rgb(105, 32, 32);
     color:white;
+    font-size: 24px;
 }
 .navbarButtons{
     color:white;
+}
+.myFooter{
+    background-color: rgb(105, 32, 32);
+    color:white;
+    font-size: 20px;
+}
+.nav-link{
+    color:white;
+    font-size:20px;
+}
+img{
+    width:320px;
+    height:200px;
+    padding-top: 40px;
+}
+.label{
+    float:top;
+}
+.main-section{
+    float: left;
+}
+.work {
+    /* position: relative; */
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+.main-section {
+    padding-top:20px;
+}
+.myCard img{
+    height:300px;
+
 }
