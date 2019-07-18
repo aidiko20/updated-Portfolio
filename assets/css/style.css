@@ -1,0 +1,13 @@
+.myCard{
+    position: center;
+    float: left;
+    padding:10px;
+    margin: 80px;
+}
+.myNavbar{
+    background-color: rgb(105, 32, 32);
+    color:white;
+}
+.navbarButtons{
+    color:white;
+}
