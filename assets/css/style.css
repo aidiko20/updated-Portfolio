@@ -57,7 +57,8 @@ img.bg{
 }
 .work {
     /* position: relative; */
-    float: left;
+    /* float: left; */
+    display: inline-block;
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
