@@ -30,22 +30,25 @@ img.bg{
 .myCard{
     position: center;
     float: left;
-    padding:10px;
     margin: 50px;
     color: black;
     font-style:bold;
     font-size: 24px;
-    background-color: rgb(51, 50, 50, 0.3);
+    background-color: rgba(156, 11, 11, 0.685);
 }
 .myFooter{
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(156, 11, 11);
     color:white;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .nav-link{
+    background-color: rgb(156, 11, 11);
     color:white;
     font-size:20px;
+}
+.myNavbar {
+  background-color: rgb(156, 11, 11);
 }
 .label{
     float:top;
@@ -71,4 +74,11 @@ img.bg{
     width: 300px;
     height:400px;
     padding:20px;
+}
+.navbar-brand {
+  color: white;
+  background-color: rgb(156, 11, 11)
+}
+.resume{
+color: white;
 }
