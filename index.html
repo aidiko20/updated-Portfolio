@@ -10,6 +10,15 @@
   <!--Bootstrap CDN-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <!--own style.css link-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- google fonts and favicon -->
@@ -19,12 +28,16 @@
 
 <body>
   <img src="assets/images/paper_fibers.png" class="bg">
-  <nav class="navbar navbar-expand-lg myNavbar">
-    <a class="navbar-brand">Aida Yrysbekova</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark myNavbar">
+    <a class="navbar-brand" href="#">Aida Yrysbekova</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav navbarButtons">
-        <li class="nav-item active" id="links">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.linkedin.com/in/aida-yrysbekova-73a143166/">LinkedIn</a>
@@ -39,15 +52,13 @@
     <div class="col-md-4">
       <div class="cardContainer">
         <div class="myCard">
-          <img src="assets/images/IMG_4186 copy.jpeg" class="card-img-top" alt="...">
+          <img src="assets/images/IMG_4186.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Full Stack Web Developer in Philadelphia Area.</p>
           </div>
           <a href="assets/images/Resume Aida.pdf"> Resume
           </a>
-
         </div>
-
       </div>
     </div>
     <div class="col-md-8">
@@ -61,10 +72,9 @@
         </div>
 
         <div class="work">
-          <img src="assets/images/burger.png">
-          <span class="label">Eat-Da-Burger</span>
-          <a href="https://github.com/aidiko20/burger">GitHub</a>
-          <a href="https://nameless-sierra-39712.herokuapp.com/">Heroku</a>
+          <a href="https://nameless-sierra-39712.herokuapp.com/"><img src="assets/images/burger.png">
+            <span class="label">Eat-Da-Burger</span>
+            <a href="https://github.com/aidiko20/burger">GitHub</a>
         </div>
 
         <div class="work">
@@ -80,13 +90,10 @@
         </div>
 
         <div class="work">
-          <img src="assets/images/project2.png">
-          <span class="label">Project-2 Book Worm Library</span>
-          <a href="https://github.com/nmarcionese/Project-2">GitHub</a>
-          <a href="https://upenn-bootcamp-san-project2.herokuapp.com/">Heroku</a>
+          <a href="https://upenn-bootcamp-san-project2.herokuapp.com/"><img src="assets/images/project2.png">
+            <span class="label">Project-2 Book Worm Library</span>
+            <a href="https://github.com/nmarcionese/Project-2">GitHub</a>
         </div>
-
-
       </section>
     </div>
   </div>
